@@ -1,0 +1,52 @@
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .main {
+    width: 80%;
+    margin: auto;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B1E;
+    overflow: hidden; 
+  }
+  
+  .content {
+    text-align: center;
+    color: #EDE3DA;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 184, 102, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    animation: slideIn 1.5s ease-out forwards;
+  }
+  
+  .content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #FFB866;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #A34E2C;
+    font-size: 2rem;
+  }
+  

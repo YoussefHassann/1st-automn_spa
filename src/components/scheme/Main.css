@@ -1,0 +1,35 @@
+
+.sub-nav {
+    width: 70%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2A2E;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .NavLink2 {
+    text-decoration: none;
+    color: #EDE3DA;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .NavLink2:hover {
+    background-color: #FFB866;
+    color: #1B1B1E;
+  }
+  
