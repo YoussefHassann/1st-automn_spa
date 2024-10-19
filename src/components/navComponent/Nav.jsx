@@ -6,7 +6,7 @@ function Nav(){
 
     return (
     <nav className="nav-main" >
-            <p>logo</p>
+            <img src="/logo.svg" alt="" />
         <div className="links">
             <ul>
                 <li><NavLink className="NavLink" to="/">Home</NavLink></li>

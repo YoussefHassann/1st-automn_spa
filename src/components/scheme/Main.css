@@ -1,4 +1,15 @@
 
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .sub-nav {
     width: 70%;
     margin: 5px auto;
@@ -9,6 +20,7 @@
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    animation: slideIn 1.5s ease-out forwards;
   }
   
   .nav-links {

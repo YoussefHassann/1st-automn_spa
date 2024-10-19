@@ -69,7 +69,22 @@
     background-color: #FFB866; 
   }
   
-
+  .user-card .btn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #A34E2C; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+  }
+  .user-card .btn:hover{
+    background-color: #FFB866; 
+  }
   .user-details {
     width: 100%;
     max-width: 600px;

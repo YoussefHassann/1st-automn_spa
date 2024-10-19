@@ -1,0 +1,25 @@
+.main-footer{
+    width: 80vw;
+    margin: auto;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3E2B25;
+    color: #EDE3DA;
+    font-weight: bold;
+
+}
+
+
+.main-footer a{
+    text-decoration: none;
+    color: #EDE3DA;
+    font-weight: bold;
+    transition: 1s all ;
+}
+
+.main-footer a:hover{
+    color: #FFB866;
+    text-decoration: underline;
+}
